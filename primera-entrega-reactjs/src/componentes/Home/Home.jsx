@@ -13,7 +13,9 @@ export const Home = () => {
   return (
     <div style={{border: '3px solid orange'}}>
         <Titulo />
+        <img src="https://i.pinimg.com/originals/13/46/35/134635a4dcbbb8a46169cb9856716cb2.png" alt="perrito    " />
         <Formulario />
+        <p>Cuantos perritos queres?</p>
         <p>{count}</p>
         <button onClick={handleAdd}>+</button>
         <button onClick={handleRemove}>-</button>
