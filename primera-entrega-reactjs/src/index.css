@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 {
@@ -70,5 +71,7 @@ button:focus-visible {
 
 .div{
   background-color: yellow;
-  
+}
+img{
+  width: 60px;
 }
