@@ -10,10 +10,9 @@ import { Home } from './componentes/Home/Home'
 
 
 
-
+  
 function App() {
   const contenidoDeTitulo = "Se vine"
-
   return (
     <div>
       <Home />
